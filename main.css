@@ -23,30 +23,34 @@ input {
     height: 30px;
     padding: 5px;
     margin: 3px;
+}
+
+.row {
+    padding: 5px;
+}
+
+.row-input, .input-row-2, .row-buttons {
+    white-space: nowrap;
+    display: inline-block;
+    justify-content: space-between;
     width: 100%;
 }
 
-/* .input-name {
-    display:flex
-} */
-
-.row-input, .row-check {
-    display: inline;
-    justify-content: space-around;
+.row-check {
+    width: 100%;
+    display: inline-flex;
 }
+
 
 .sign-up-box {
     width: 50%;
     margin: 20% auto;
     text-align: center;
-    border: 1px solid black;
     padding: 5px;
-    /* position: ; */
-    /* display: flex; */
 }
 
 .small-input {
-    width: 46%;
+    width: 45.5%;
 }
 
 .big-input {
@@ -63,7 +67,11 @@ input {
     color: white;
     margin: 3px;
     padding: 7px;
-    width: 100%;
+    width: 46%;
+}
+
+#btn-agree {
+    margin-right: 70px;
 }
 
 .bl {
@@ -74,6 +82,6 @@ input {
     background: greenyellow;
 }
 
-.row-check {
-    display: inline-flex;
+#agreement-text {
+    width: 100%;
 }
